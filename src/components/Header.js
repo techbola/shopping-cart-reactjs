@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <Navbar bg="dark" variant="dark" style={{ height: 80 }}>
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand>
           <Link to="/">Shorting Cart</Link>
         </Navbar.Brand>
         <Navbar.Text className="search">
