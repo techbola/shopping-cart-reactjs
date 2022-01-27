@@ -59,3 +59,29 @@
 .summary {
   width: 30%;
 }
+
+@media (max-width: 771px) {
+  .filters {
+    padding: 10px;
+    width: 40%;
+    margin: 5px;
+  }
+
+  .filters > span {
+    font-size: 10px;
+  }
+
+  .title {
+    font-size: 18px !important;
+  }
+  .productContainer {
+    width: 58%;
+    padding: 0;
+  }
+  .search {
+    display: none !important;
+  }
+  .products {
+    width: 100%;
+  }
+}
